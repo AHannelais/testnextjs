@@ -1,0 +1,17 @@
+.player-progress {
+  cursor: pointer;
+}
+.player-controls {
+  display: flex;
+  justify-content: space-between;
+}
+.player-volume-control {
+  width: 15%;
+  min-width: 150px;
+  font-size: small;
+  justify-content: space-around;
+  display: flex;
+}
+.player-volume-control .range-select {
+  width: 60%;
+}
